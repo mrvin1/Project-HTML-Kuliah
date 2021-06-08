@@ -14,10 +14,10 @@
             <img src="../assets/NicePng_hamburger-icon-png_415236.png" alt="">
             <ul class="menubar">
                 <a href="../html/home.html"><li class="menubar">Home</li></a>
-                <a href="../html/ourMenu.html"><li class="menubar">Our Menu</li></a>
-                <a href="../html/aboutUs.html"><li class="menubar">About Us</li></a>
+                <a href=""><li class="menubar">Our Menu</li></a>
+                <a href=""><li class="menubar">About Us</li></a>
                 <a href="../html/reservation.html"><li class="menubar">Reservation</li></a>
-                <a href="../html/promo.html"><li class="menubar" id="promo">PROMO!!!</li></a>
+                <a href=""><li class="menubar" id="promo">PROMO!!!</li></a>
             </ul>
         </div>
         <div class="navM">
@@ -31,21 +31,22 @@
                 <a href="../html/home.html">Home</a>
             </div>
             <div class="nav">
-                <a href="../html/ourMenu.html">Our Menu</a>
+                <a href="">Our Menu</a>
             </div>
             <div class="nav">
-                <a href="../html/aboutUs.html">About Us</a>
+                <a href="">About Us</a>
             </div>
             <div class="nav">
                 <a href="../html/reservation.html">Reservation</a>
             </div>
             <div class="nav" id="promo">
-                <a href="../html/promo.html"><p>PROMO!!!</p></a>
+                <a href=""><p>PROMO!!!</p></a>
             </div>
         </div>
     </div>
 
     <div class="main">
+        <h1>Please fill the reservation form!</h1>
         <form onsubmit="return checker()">
             <div>
                 Name :  <input type="text" id="name">
@@ -57,10 +58,10 @@
                 Number of Person (max 50):  <input type="number" id="person" min="1" max="50">
             </div>
             <div>
-                Date: <input type="date" id="date">
+                Date: <input type="date" id="tanggal">
             </div>    
             <div>
-                Time: <input type="time" id="time">
+                Time (09:00-22:00): <input type="time" id="time" min="09:00" max="22:00">
             </div>
             <div class="coupon">
                 Coupon (if any):  <input type="text" id="coupon">
