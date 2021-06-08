@@ -5,6 +5,17 @@
     background-color: burlywood;
 }
 
+.layout_horizontal{
+    display: flex;
+    flex-direction: column;
+}
+
+.layout_vertical{
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 .footer {
     position: fixed;
