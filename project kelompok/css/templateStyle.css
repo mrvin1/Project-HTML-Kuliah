@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.head .logo{
+    display: flex;
+    width: 150px;
+    height: 70px;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+.head{
+    padding-bottom: 2%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5%;  
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 40rem;
+}
+
+.nav a{
+    font-size: 18px;
+}
+#promo{
+    color: red;
+}
+.nav p{
+    color: red;
+}
+.navMin img{
+    width: 30px;
+    height: 30px;
+}
+
+.navMin{
+    display: none;
+}
+.menubar{
+    display: none;
+    border-bottom: 1px solid white;
+}
+
+.menubar li{
+    align-items: center;
+    font-size: 35px;
+    padding: 4%;
+}
+.head{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.footer .logo{
+    display: flex;
+    width: 200px;
+    height: 150px;
+}
+
+.footer p{
+    padding: 5px;
+}
+.sosmed{
+    display: flex;
+    align-items: center;
+}
+.sosmed img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.alamat{
+    text-align: center;
+}
+@media only screen and (max-width : 800px){
+    .nav{
+        display: none;
+    }
+    .navMin{
+        display: block;
+        padding-top: 3%;
+    }
+    .navMin:hover .menubar {
+         display: block;
+    }
+
+    .head{
+        justify-content: space-evenly;
+    }
+    .footer p{
+        display: none;
+    }
+}
+
+
+
+
